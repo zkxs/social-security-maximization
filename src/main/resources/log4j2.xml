@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="60">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-4r [%t] %-5p %c - %msg%n"/> <!-- Long class names -->
+        </Console>
+        <!--<File name="File" fileName="all.log" immediateFlush="false" append="false">-->
+        <!--<PatternLayout pattern="%-4r [%t] %-5p %c - %msg%n"/>-->
+        <!--</File>-->
+    </Appenders>
+    <Loggers>
+        <Logger name="net.michaelripley.socialsecurity" level="DEBUG"/>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <!--<AppenderRef ref="File" />-->
+        </Root>
+    </Loggers>
+</Configuration>

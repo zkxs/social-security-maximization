@@ -1,0 +1,20 @@
+[primary]
+birthDate = 1945-02-15
+eligibilityDate = 1980-02-15
+deathDate = 2032-02-15
+primaryInsuranceAmount = "2400"
+
+[secondary]
+birthDate = 1949-06-27
+eligibilityDate = 1984-06-27
+deathDate = 2037-06-27
+primaryInsuranceAmount = "500"
+
+[rates]
+yearlyInterestRate = "0.05"
+yearlyInflationRate = "0.025"
+
+[output]
+worst = true
+monthlyBreakdown = true
+primaryBreakdown = true
